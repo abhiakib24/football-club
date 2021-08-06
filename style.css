@@ -100,8 +100,9 @@ h1{
   @media screen and (max-width: 700px) {
     .column {
       width: 100%;
-      display: block;
+      
       margin-bottom: 20px;
+     
     }
   }
   
@@ -112,6 +113,16 @@ h1{
     background-color: #f1f1f1;
     
   }
+/* layout */
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  grid-gap: 10px;
+  margin: 40px;
+}
+
+
 
 /* logo area */
 
@@ -161,14 +172,14 @@ h1{
 }
 .icon3:hover{
   transform: scale(1.5);
-  transition: transform 1s ease-in-out;
+  transition: transform .5s ease-in-out;
   cursor: pointer;
   
 }
 .copyright{
   color:rgb(184, 182, 179);
   text-align: center;
-}
+} 
 
 
 
